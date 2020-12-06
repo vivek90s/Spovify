@@ -2,11 +2,11 @@
 	"name": "spotify",
 	"version": "1.0.0",
 	"description": "Spotify clone",
-	"main": "public/index.html",
+	"main": "index.html",
 	"author": "Viv",
 	"license": "MIT",
 	"scripts": {
-		"start": "lite-server public/index.html",
+		"start": "lite-server index.html",
 		"build": "postcss css/tailwind.css -o public/build/styles.css",
 		"watch": "postcss css/tailwind.css -o public/build/styles.css --watch",
 		"production": "npm run build --env=production"
